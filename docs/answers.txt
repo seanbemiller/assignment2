@@ -1,4 +1,4 @@
-E.
+3 E.
 	a) Pushing to https://github.com/seanbemiller/assignment2.git
 	To https://github.com/seanbemiller/assignment2.git
 	 = [up to date]      master -> master
@@ -25,3 +25,6 @@ E.
 	of potential merge conlfics. the director then only has to merge the lieutenants repositories,
 	as aposed to every individual haveing to habdel merge conflicts potentially whent when every
 	the push ot the repository like in a centeralized workflow.
+
+5. The driving simulator is using encapsulated object orient principals with different vehicals being
+capsules that fit together in main to create the final running program.
