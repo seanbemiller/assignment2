@@ -11,11 +11,12 @@ class Unicycle : public Vehicle {
 
 private:
 	int riderSkill; //value from 0 to 5
+	
 public:
-    explicit Unicycle(string brand, string model);
+    explicit Unicycle(string brand, string model, int skill);
 
 	int getRiderSkill();
-	void setRiderSkill();
+	void setRiderSkill(int skill);
 
     virtual ~Unicycle();
     virtual double mileageEstimate(double time);

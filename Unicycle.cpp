@@ -12,19 +12,20 @@ Unicycle::Unicycle(string brand, string model, int skill = 0) {
 
 Unicycle::~Unicycle() = default;
 
-int getRiderSkill(){
+int Unicycle::getRiderSkill(){
 	return riderSkill;
 }
 
-void setRiderSkill(int skill){ 
+void Unicycle::setRiderSkill(int skill){ 
 	if (skill < 0)
 		skill = 0;
 	if (skill > 5)
 		skill =5;
 	riderSkill = skill;
+}
 
 double Unicycle::mileageEstimate(double time) {
-	double milage = ((riderSkill * (.1)) / 5) * time;
+	double mileage = ((riderSkill * (.1)) / 5) * time;
     if (riderSkill == 0)
 		mileage = 0;
 	return mileage;
