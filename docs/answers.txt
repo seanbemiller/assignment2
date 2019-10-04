@@ -1,0 +1,27 @@
+E.
+	a) Pushing to https://github.com/seanbemiller/assignment2.git
+	To https://github.com/seanbemiller/assignment2.git
+	 = [up to date]      master -> master
+	updating local tracking ref 'refs/remotes/origin/master'
+	Everything up-to-date
+	b) 9, used command: git rev-list --count
+	c) Wed, Sep 25 18:13:30 2019, used command: git log -- ".gitignore"
+	d) branches allow for segmentaion of the work so that multiple colaborators can work on a project
+	at the same time, as well as a way to segment features that are being worked on in a project.
+	e) git status shows the staus of the working directory as a whole,
+	while git log breaks down commit changes to files/directories 
+	f) git log --diff-filter=A -- "vehica.h"
+	e) git log --all --grep='file'
+	h) 
+		I) Inheritenace is the process of classes inheriting data/functions from parent classes.
+		II) Polymorphism is when a class is interprited differently, like an int being used in
+		a function that requires a double.
+		III) encapsulation is when functions and data that relate to one another are encapsulated
+		in a single structure like a class.
+	i) dictators merge/conflic resolve lieutenants repositories while 
+	a lieutenants merge/conflic resolve changes for the developers
+	j) with the lieutenant/dictator workflow the developers could focus more on development and 
+	worry less about having mergconflics and the lieutenants only have to manage a certain amount
+	of potential merge conlfics. the director then only has to merge the lieutenants repositories,
+	as aposed to every individual haveing to habdel merge conflicts potentially whent when every
+	the push ot the repository like in a centeralized workflow.
