@@ -3,7 +3,6 @@
 //
 
 #include "Jet.h"
-#include <cstdlib>
 
 Jet::Jet() {
     numberOfEngines = 1;
@@ -34,6 +33,7 @@ void Jet::setNumOfEngines(int numOfEngines) {
 }
 
 double Jet::mileageEstimate(double time) {
+	srand (static_cast <unsigned> (time(0)));
     double mileage = ((rand() % 61) + 40 ) * time;
     if (numberOfEngines > 2) {
         mileage = mileage * 1.055(numberOfEngines);
